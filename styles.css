@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Karantina&family=Oswald&family=Zen+Dots&display=swap');
+
+/* font-family: 'Karantina', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Zen Dots', cursive; */
+
+header {
+    margin: 0 auto;
+    width: 1100px;
+}
+
+h1 {
+    font-family: 'Zen Dots', cursive;
+    font-size: 32px;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+h2 {
+    font-family: 'Karantina', cursive;
+    font-size: 40px;
+}
+
+.box {
+    box-sizing: border-box;
+    border: solid hsl(0, 0%, 40%) 2px;
+    padding: 10px;
+    width: 1100px;
+    margin: 10px auto;
+}
+
+.elements {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 345px;
+    height: 110px;
+    margin: 20px 5px 20px 0;
+}
+
+#charcoal {
+    background-color: hsl(0, 0%, 40%);
+    color: white;
+}
+
+#red {
+    background-color: hsl(0, 100%, 50%);
+    color: white;
+}
+
+#white {
+    box-sizing: border-box;
+    background-color: hsl(120, 100%, 100%);
+    color: black;
+    border: solid black 1px;
+}
+
+#black {
+    background-color: hsl(120, 100%, 0%);
+    color: white;
+}
+
+.color-text {
+    margin: 10px auto;
+}
+
+h3 {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fonts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 220px;
+    font-size: 20px;
+}
+
+.fonts p {
+    margin-top: 10px;
+    margin-bottom: 10px;   
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+#oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+#karantina {
+    font-family: 'Karantina', cursive;
+}
+
+#karantina h3 {
+    font-size:30px;
+}
+
+#karantina p {
+    font-size: 27px;
+}
+
+#zen-dots {
+    font-family: 'Zen Dots', cursive;
+}
+
+#zen-dots h3 {
+    font-size: 24px;
+}
+
+#zen-dots p {
+    font-size: 18px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
